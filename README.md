@@ -51,6 +51,7 @@ project-root/
 2. Then execute in the command line from project root:
 * ```npm install```
 
+---
 
 ## ▶️ How to Run the Server
 1. Start the server:
@@ -60,6 +61,7 @@ project-root/
 3. To stop the server:
 * ```CTRL + C in the command line```
 
+---
 
 ## 🔄 Available URL Routes
 ```/``` Home page
@@ -70,12 +72,15 @@ project-root/
 
 ```/form```Form page
 
+---
 
 ## 🧩 Notes
 
 * The server runs on port 3000 by default
 * Cache is disabled for the main page
 * All requests are logged using a custom middleware
+
+---
 
 ## License
 This project is for educational purposes and personal use.
