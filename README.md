@@ -9,7 +9,7 @@ The server handles multiple HTML pages and a simple form submission.
 ## 🚀 Features
 
 - Run your own custom Express server
-- Multiple routes (`/`, `/about`, `/contacts`, `/form`)
+- Multiple endpoints (`/`, `/about`, `/contacts`, `/form`)
 - Static HTML files where you can put your own html code
 - Simple POST request handling
 - Custom middleware for request logging
