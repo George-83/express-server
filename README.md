@@ -14,6 +14,7 @@ The server handles multiple HTML pages and a simple form submission.
 - Simple POST request handling
 - Custom middleware for request logging
 - Real-time reload during development with **nodemon**
+- Sending a GET request with Postman to "http://localhost:3000/countries", demonstrates an example of real endpoint response. This allows you to create your own endpoints and getting responses form them.
 
 ---
 
