@@ -19,6 +19,7 @@ The server handles multiple HTML pages and a simple form submission.
 
 ## 🛠 Technologies Used
 
+- **TypeScript**
 - **Node.js**
 - **Express**
 - **nodemon** (for real-time server reload during development)
