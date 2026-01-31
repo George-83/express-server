@@ -57,6 +57,8 @@ project-root/
 * ```npm run nodemon```
 2. Open in browser:
 * ```http://localhost:3000/```
+3. To stop the server:
+* ```CTRL + C in the command line```
 
 
 ## 🔄 Available URL Routes
