@@ -21,8 +21,7 @@ const server = app.listen(port, () => {
 
 // Custom middleware
 function logger(req: any, res: any, next: any) {
-    console.log(`Request method: ${req.method}`);
-    console.log(`Request URL: ${req.url}`);
+    console.log(`Request method: "${req.method}" - Request URL: "${req.url}"`);
     next();
 }
 
@@ -54,5 +53,5 @@ app.get("/form", (req, res) => {
 
 // When you submit the form, the code inside is being executed
 app.post("/submit", (req, res) => {
-    res.sendStatus(200);
+    res.send("<h1>Form sent successful!</h1>")
 });

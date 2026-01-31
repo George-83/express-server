@@ -35,7 +35,7 @@ project-root/
 │   ├── index.html               # Main page
 │   ├── about.html               # About page
 │   ├── contacts.html            # Contacts page
-│   ├── form.html                # Simple brand name generator
+│   ├── form.html                # Simple contact form
 │   └── index.ts                 # Express server
 │
 ├── package.json
@@ -66,15 +66,15 @@ project-root/
 
 ```/about```About page
 
-```/contacts```Brand name generator form
+```/contacts```Contacts page
 
-```/form```Contacts page
+```/form```Form page
 
 
 ## 🧩 Notes
 
 * The server runs on port 3000 by default
-* Cache is disabled for the main page during development
+* Cache is disabled for the main page
 * All requests are logged using a custom middleware
 
 ## License
