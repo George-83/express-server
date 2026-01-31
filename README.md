@@ -1,6 +1,6 @@
 # Simple Node.js + Express Server
 
-This is a project that demonstrates how to build a **custom web server** using **Node.js** and **Express**.
+This is a project that demonstrates how to build a **custom web server** using **Node.js** and **Express** and how you can create your own endpoint.
 
 The server handles multiple HTML pages and a simple form submission.
 
@@ -36,6 +36,7 @@ project-root/
 │   ├── about.html               # About page
 │   ├── contacts.html            # Contacts page
 │   ├── form.html                # Simple contact form
+│   ├── response.ts              # Example of JSON response
 │   └── index.ts                 # Express server
 │
 ├── package.json
@@ -71,6 +72,8 @@ project-root/
 ```/contacts```Contacts page
 
 ```/form```Form page
+
+```/countries```Example of the endpoint with JSON response, if you call with Postman GET request "http://localhost:3000/countries"
 
 ---
 

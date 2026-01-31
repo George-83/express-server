@@ -1,6 +1,7 @@
-import express from "express";
+import express from 'express';
 import { fileURLToPath } from 'url'
 import path from 'path'
+import { response } from "./response.ts";
 
 
 const __filename = fileURLToPath(import.meta.url)
@@ -49,6 +50,12 @@ app.get("/contacts", (req, res) => {
 // When you open 'form' page, form.html file content is being returned to the browser
 app.get("/form", (req, res) => {
     res.sendFile(path.join(__dirname, 'form.html'));
+});
+
+// Returns a JSON response
+app.get("/countries", (req, res) => {
+    res.set('Cache-Control', 'no-store');
+    res.send(response);
 });
 
 // When you submit the form, the code inside is being executed
