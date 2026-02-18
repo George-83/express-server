@@ -86,6 +86,7 @@ project-root/
 
 ---
 
-## License
-This project is for educational purposes and personal use.
+## 📜 License
+
+This project is released into the public domain under The Unlicense. You are free to use, copy, modify, and share this code.
 
